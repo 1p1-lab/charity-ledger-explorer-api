@@ -9,6 +9,7 @@ https://github.com/1p1-lab/charity-ledger-explorer-client
 Charity Blockchain Association is an association of honest charitable foundations that use blockchain technology for accounting purposes. The unifying principle is that all members of the association adhere to maximum transparency of their operations.
 
 http://charityblockchain.ru/association
+
 http://charityblockchain.info/association
 
 # Get started
