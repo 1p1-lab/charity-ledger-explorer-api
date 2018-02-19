@@ -1,0 +1,299 @@
+{
+  "address": "0x41bae1b67ffb9e21e5ff6100133e5d509f4c80b0",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "name": "listDonationSources",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ownerCandidate",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "name": "DonationSources",
+      "outputs": [
+        {
+          "name": "flag",
+          "type": "bool"
+        },
+        {
+          "name": "used",
+          "type": "bool"
+        },
+        {
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "isDoubleEntry",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "itemCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_index",
+          "type": "uint32"
+        }
+      ],
+      "name": "getByList",
+      "outputs": [
+        {
+          "name": "used1",
+          "type": "bool"
+        },
+        {
+          "name": "ID1",
+          "type": "uint32"
+        },
+        {
+          "name": "name1",
+          "type": "string"
+        },
+        {
+          "name": "isDoubleEntry1",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_ID",
+          "type": "uint32"
+        },
+        {
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "name": "_isDoubleEntry",
+          "type": "bool"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_ID",
+          "type": "uint32"
+        },
+        {
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "name": "_isDoubleEntry",
+          "type": "bool"
+        },
+        {
+          "name": "_used",
+          "type": "bool"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "acceptOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_ID",
+          "type": "uint32"
+        }
+      ],
+      "name": "getByID",
+      "outputs": [
+        {
+          "name": "used1",
+          "type": "bool"
+        },
+        {
+          "name": "ID1",
+          "type": "uint32"
+        },
+        {
+          "name": "name1",
+          "type": "string"
+        },
+        {
+          "name": "isDoubleEntry1",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "isDoubleEntry",
+          "type": "bool"
+        }
+      ],
+      "name": "Add",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "isDoubleEntry",
+          "type": "bool"
+        },
+        {
+          "indexed": false,
+          "name": "used",
+          "type": "bool"
+        }
+      ],
+      "name": "Set",
+      "type": "event"
+    }
+  ]
+}

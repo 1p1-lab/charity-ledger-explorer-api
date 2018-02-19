@@ -1,0 +1,19 @@
+/**
+ * Sequelize CLI settings
+ *
+ * @author  Marunin Alexey <amarunin@oneplus1.ru>
+ * @since   0.1.0
+ *
+ * @see     http://docs.sequelizejs.com/manual/tutorial/migrations.html#the-sequelizerc-file
+ */
+
+require('dotenv').load({path:'./server/.env'})
+
+const path = require('path')
+
+module.exports = {
+  'config': path.resolve('server', 'components', 'sequelize', 'config', 'config.js'),
+  'models-path': path.resolve('server', 'components', 'sequelize', 'models'),
+  'seeders-path': path.resolve('server', 'components', 'sequelize', 'seeders'),
+  'migrations-path': path.resolve('server', 'components', 'sequelize', 'migrations')
+}

@@ -1,0 +1,355 @@
+{
+  "address": "0xbbd13beb4bdf8066316fcf829ae2e1f15c3c5cf1",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "setContractCharityFoundations",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_ID",
+          "type": "uint32"
+        },
+        {
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "name": "_used",
+          "type": "bool"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        }
+      ],
+      "name": "getCountByCharityFoundation",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_ID",
+          "type": "uint32"
+        }
+      ],
+      "name": "getByID",
+      "outputs": [
+        {
+          "name": "used1",
+          "type": "bool"
+        },
+        {
+          "name": "ID1",
+          "type": "uint32"
+        },
+        {
+          "name": "name1",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "allItemsCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ownerCandidate",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "name": "CharityProjects",
+      "outputs": [
+        {
+          "name": "flag",
+          "type": "bool"
+        },
+        {
+          "name": "used",
+          "type": "bool"
+        },
+        {
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "name": "itemCountByCharityFoundations",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_ID",
+          "type": "uint32"
+        },
+        {
+          "name": "_name",
+          "type": "string"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_index",
+          "type": "uint32"
+        }
+      ],
+      "name": "getByList",
+      "outputs": [
+        {
+          "name": "used1",
+          "type": "bool"
+        },
+        {
+          "name": "ID1",
+          "type": "uint32"
+        },
+        {
+          "name": "name1",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "acceptOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "name": "listCharityProjects",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "name": "Add",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "used",
+          "type": "bool"
+        }
+      ],
+      "name": "Set",
+      "type": "event"
+    }
+  ]
+}

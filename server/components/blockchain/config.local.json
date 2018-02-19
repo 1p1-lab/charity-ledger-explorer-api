@@ -1,0 +1,48 @@
+{
+  "host": "http://127.0.0.1:7545",
+  "timeout": 300,
+
+  "contractPath": "D:\\work\\metarex\\1p1-blockchain-smartcontracts\\build\\contracts\\",
+  "contracts":    {
+    "Foundation": {
+      "abi":     "CharityFoundations.json",
+      "address": "0x345ca3e014aaf5dca488057592ee47305d9b3e10"
+    },
+    "Program": {
+      "abi":     "CharityPrograms.json",
+      "address": "0x9fbda871d559710256a2502a2517b794b482db40"
+    },
+    "Project": {
+      "abi":     "CharityProjects.json",
+      "address": "0xaa862ddac09f6736a61e1124040fd883a6533c19"
+    },
+    "Target": {
+      "abi":     "CharityTargets.json",
+      "address": "0x432adf73ac67ff0810eae7dec53dbf077f228a6e"
+    },
+    "CostItem": {
+      "abi":     "CostItems.json",
+      "address": "0x7001ea1ca8c28aa90a0d2e8b034aa56319ff0a7e"
+    },
+    "DonationSource": {
+      "abi":     "DonationSources.json",
+      "address": "0x394bfb86641bf8ca8a757a318499a580cc1f26c6"
+    },
+    "Donation": {
+      "abi":     "Donations.json",
+      "address": "0x25cbab0c13650026c7bcbcce7ef963c303b68cd6"
+    },
+    "Donator": {
+      "abi":     "Donators.json",
+      "address": "0x42874bcbea7b97551e0bf71f9693775bd005f76b"
+    },
+    "Expense": {
+      "abi":     "Expenses.json",
+      "address": "0xace937991395b2051613368206066eb2e752a333"
+    },
+    "KeyValueStorage": {
+      "abi":     "KeyValueStorage.json",
+      "address": "0x38cf23c52bb4b13f051aec09580a2de845a7fa35"
+    }
+  }
+}

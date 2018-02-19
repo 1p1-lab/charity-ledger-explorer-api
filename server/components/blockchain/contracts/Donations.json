@@ -1,0 +1,533 @@
+{
+  "address": "0x9a4dccc2a2f079d497765f84c1927d225b7a0d9f",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "setContractCharityFoundations",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "listYYYYMMDDDonations",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint64"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "listDonatorDonations",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ownerCandidate",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_yyyymmdd",
+          "type": "uint32"
+        }
+      ],
+      "name": "getListIDByYYYYMMDD",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_idDonator",
+          "type": "uint32"
+        }
+      ],
+      "name": "getListIDByDonator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "itemCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_ID",
+          "type": "uint128"
+        },
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_yyyymmdd",
+          "type": "uint32"
+        },
+        {
+          "name": "_nDoc",
+          "type": "string"
+        },
+        {
+          "name": "_idDonationSources",
+          "type": "uint32"
+        },
+        {
+          "name": "_idTarget",
+          "type": "uint32"
+        },
+        {
+          "name": "_idDonator",
+          "type": "uint32"
+        },
+        {
+          "name": "_nameDonator",
+          "type": "string"
+        },
+        {
+          "name": "_remark",
+          "type": "string"
+        },
+        {
+          "name": "_sum",
+          "type": "int256"
+        },
+        {
+          "name": "_used",
+          "type": "bool"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "name": "listDonations",
+      "outputs": [
+        {
+          "name": "flag",
+          "type": "bool"
+        },
+        {
+          "name": "used",
+          "type": "bool"
+        },
+        {
+          "name": "ID",
+          "type": "uint128"
+        },
+        {
+          "name": "idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "yyyymmdd",
+          "type": "uint32"
+        },
+        {
+          "name": "nDoc",
+          "type": "string"
+        },
+        {
+          "name": "idDonationSources",
+          "type": "uint32"
+        },
+        {
+          "name": "idTarget",
+          "type": "uint32"
+        },
+        {
+          "name": "idDonator",
+          "type": "uint32"
+        },
+        {
+          "name": "nameDonator",
+          "type": "string"
+        },
+        {
+          "name": "remark",
+          "type": "string"
+        },
+        {
+          "name": "sum",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_ID",
+          "type": "uint128"
+        }
+      ],
+      "name": "getByID",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        },
+        {
+          "name": "",
+          "type": "uint128"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "name": "_yyyymmdd",
+          "type": "uint32"
+        },
+        {
+          "name": "_nDoc",
+          "type": "string"
+        },
+        {
+          "name": "_idDonationSources",
+          "type": "uint32"
+        },
+        {
+          "name": "_idTarget",
+          "type": "uint32"
+        },
+        {
+          "name": "_idDonator",
+          "type": "uint32"
+        },
+        {
+          "name": "_nameDonator",
+          "type": "string"
+        },
+        {
+          "name": "_remark",
+          "type": "string"
+        },
+        {
+          "name": "_sum",
+          "type": "int256"
+        }
+      ],
+      "name": "add",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "acceptOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "name": "yyyymmdd",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "nDoc",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "idDonationSources",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "idTarget",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "idDonator",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "nameDonator",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "remark",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "sum",
+          "type": "int256"
+        }
+      ],
+      "name": "Add",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "idCharityFoundation",
+          "type": "uint32"
+        },
+        {
+          "indexed": true,
+          "name": "ID",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "name": "yyyymmdd",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "nDoc",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "idDonationSources",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "idTarget",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "idDonator",
+          "type": "uint32"
+        },
+        {
+          "indexed": false,
+          "name": "nameDonator",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "remark",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "sum",
+          "type": "int256"
+        },
+        {
+          "indexed": false,
+          "name": "used",
+          "type": "bool"
+        }
+      ],
+      "name": "Set",
+      "type": "event"
+    }
+  ]
+}

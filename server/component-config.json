@@ -1,0 +1,24 @@
+{
+  "./components/i18n": {
+    "locales": ["ru", "en"],
+    "directory": "server/components/i18n/locales",
+    "defaultLocale": "ru",
+    "indent": "  ",
+    "syncFiles": true,
+    "queryParameter": "lang"
+  },
+  "./components/logging": {
+  },
+  "./components/sequelize": {
+    "modelsPath": "server/components/sequelize/models"
+  },
+  "./components/blockchain": {
+    "provider": {
+      "host": "http://localhost:8545",
+      "timeout": 0,
+      "user": null,
+      "password": null
+    },
+    "gas": 300000
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "NO_FOUNDATION_SPECIFIED": "No foundation specified",
+  "FOUNDATION_NOT_FOUND": "Foundation %s not found",
+  "INVALID_SUM": "Invalid sum: %s",
+  "NO_TARGET_SPECIFIED": "No target specified",
+  "TARGET_IN_FOUNDATION_NOT_FOUND": "Target %s in foundation %s not found",
+  "NO_SOURCE_SPECIFIED": "No source specified",
+  "SOURCE_NOT_FOUND": "Source %s not found",
+  "NO_EMAIL_SPECIFIED": "No email specified",
+  "EMAIL_NOT_FOUND": "Such email is not found",
+  "PROGRAM_NOT_FOUND": "No program %s found in foundation %s"
+}

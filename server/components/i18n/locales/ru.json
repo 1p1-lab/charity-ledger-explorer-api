@@ -1,0 +1,12 @@
+{
+  "NO_FOUNDATION_SPECIFIED": "Фонд не указан",
+  "FOUNDATION_NOT_FOUND": "Фонд %s не найден",
+  "INVALID_SUM": "Некорректная сумма: %s",
+  "NO_TARGET_SPECIFIED": "Цель не указана",
+  "TARGET_IN_FOUNDATION_NOT_FOUND": "Цель %s не найдена в фонде %s",
+  "NO_SOURCE_SPECIFIED": "Источник не указан",
+  "SOURCE_NOT_FOUND": "Источник %s не найден",
+  "NO_EMAIL_SPECIFIED": "Не указан email",
+  "EMAIL_NOT_FOUND": "Такой email не обнаружен",
+  "PROGRAM_NOT_FOUND": "Программа %s не найдена в фонде %s"
+}
